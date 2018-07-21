@@ -1,0 +1,193 @@
+Vin McLellan <vin@shore.net> wrote:
+
+>>[...] I hesitate to get into this, since I'm not qualified to judge
+>>the viability of Prof. Schnorr's case, or even to effectively present
+>>his technical arguments, but Schnorr's claims -- to judge from their
+>>impact on DSA adoption, US crypto policy, and specifically the NSA's
+>>strategy for managing the US standards process to ensure universal
+>>government access to crypto keys (GAK)  -- are neither  trivial nor
+>>vacuous.   
+>>
+>>	I think it is misleading to suggest that they are. 
+
+	[long discussion of Schnorr, DSA, etc. snipped]
+
+	Roger Schlafly <schlafly@cruzio.com> offered....
+
+>Several points in response  [...]
+
+>* All this spook conspiracy talk belongs in the X-files. The specs
+>for Fortezza have been declassified. Sure, the NSA has some
+>GAK-related motives, but these grand conspiracy theories just
+>haven't panned out.
+
+        Actually, I don't think of the NSA's plots to deny everyone
+but themselves (and those they dub worthy) access to strong un-GAKed
+commercial cryptography as a conspiracy, per se. NSA officials acted
+upon a fairly open if Byzantine strategy. It was hatched by men who
+obviously believe that Western liberal society is best safeguarded if
+the US can continue to gleen the benefits of the huge passive
+eavesdropping net that has for decades sustained America's
+geo-political dominance.
+
+        I think they're wrong, and I think their efforts are futile,
+but no one can deny they have effectively stalled widespread use of
+strong crypto for a fifteen years, and will for a bit longer.
+Conspirators? Well, the NSA's strategists are of a class and
+generation which believes that narrow "national security" interests
+and military goal-tending can better safeguard American and Western
+cultural dominance than a fairly-won hegemony in a flourishing and
+open capitalist market. 
+
+        Despite Dr. Schlafly's derision, one need to subscribe to the
+Professor Moriarty School of Historical Interpretation to acknowledge
+the reality of the NSA's long campaign to block the commercial
+adoption of software-based public-key-based crypto in computer and
+commmunications systems.  When the Schnorr patents and the DSA came to
+the fore, their proclaimed goal was to supplant strong PKC with with
+the NSA's own silicon-only Capstone for key-enchange. When that
+failed, they attempted to legislate "key escrow." And when that
+failed, they promoted "key recovery." Export control, unpredictable
+and subjective in application, effectively bludgeoned the vendors into
+line.)  
+
+        This is not some "X Files" action/adventure script, and I take
+mild offense at the suggestion. 
+
+	This is simply what everyone in this industry has lived through in
+the past decade. The outline of Bill Crowell's strategy is vivid still
+in the BXA export regs, the Wassenaar Arrangement, and the regular
+Congressional testimony of Mr. Reinsch, Mr. Freeh, Mr. Lee, and Ms.
+McNamara.
+
+        Dr.  Schlafly, as he has prosecuted his long campaign against
+RSA in the standards orgs as well as the courts, has doubtless rubbed
+shoulders with a number of well-known NSA reps with similar goals, if
+different motives. While a bit less forward these days, they still
+dominate much of the process -- the ABA's witless claims of X.9
+independence to the contrary. 
+
+>* Claus Schnorr is a brilliant man, but he is not an expert in US 
+>patent law.
+
+        Maybe true -- although I suspect that Claus Schnorr's study of
+international and US patent law has been as intense and deep as Roger
+Schlafly's own not-inconsiderable scholarship as a layman in law.
+
+>* Schnorr sold his patent rights to Siemens and RSADSI, so his
+>opinion is irrelevant. Others are enforcing the patent.
+>
+>* RSADSI does NOT claim that practice of the DSA infringes
+>Schnorr's patent. RSADSI lawyers have specifically repudiated
+>such coverage in open court. Anyone who thinks that there is some
+>nonzero chance that the Schnorr patent covers DSA is uninformed.
+
+        I said before that the question is today largely academic, and
+I hope Prof. Schnorr has benefited handsomely from his alliance with
+RSA and SDTI (for whom I have long been a consultant).  But what was
+proposed in '90,'91,'92 as strategy to warp the market (the NSA's
+DSA/Capstone scheme) was effectively blocked with political tactics,
+the 1992 RSA threat of a challenge to DSA based on the Schnorr patents
+prominent among them.  That a weapon is not used does not mean it was
+useless.
+
+        More to the point, while Prof. Schnorr argues that his US
+patent covers DSA, I suspect that even patent experts who disagree
+with him on that point might nevertheless conceed (or at least worry)
+that his broader European and Japanese patents are more likely to
+cover the DSA. If the Schnorr patents had been used to challenge the
+DSA, the suit could as easily be filed in Europe -- where Courts may
+be less susceptable to the suggestion that the NSA created the DSS in
+a novel burst of generosity and community service.
+
+        Again, in 1992, at least two firms of patent law specialists
+hired by NIST to review the prospect of defending the DSA against a
+Schnorr challenge declared themselves uncertain of the outcome of any
+court case.  Then, those opinions had a significant impact on US
+policy. 
+
+>* Yes, DSS was intended for authentication, not confidentiality.
+>Most crypto people have now come around to the view that
+>encryption and signature keys should be separate.
+>
+>* Although DSA does not explicitly give a confidentiality method
+>(encryption or key agreement), the closely related Diffie-Hellman
+>methods are well-known and widely used. Use of DSA does not
+>inhibit confidentiality.
+
+        You are taking the NSA's DSA out of the historical context
+within which it was proposed.  
+
+        Eight years ago, the standardization of the DSA in the DSS --
+in the face of the already widespread acceptance of RSA (which offers
+both authetication and key-management) as a de facto industry standard
+-- was explicitly intended to inhibit vendor (and user) access to
+confidentiality.  
+
+        In those days, of course, Diffie-Hellman was also patented and
+commercially licensed, first by PTP, then by Cylink (where former NSA
+Deputy Director William P. Crowell is now president.)   
+
+	Putting aside the relative efficiency of RSA for signature
+verification, I don't doubt that, at that time, the widespread
+adoption of the DSA paired with Diffie-Hellman for PKI
+(key-management) would have been no more welcomed by the NSA than the
+widespread use of RSAPKC was. 
+ 
+        Back then, you didn't see any willingness to permit X.9 or the
+ISO to standardize on D-H for PKI either, did you?  Not likely.  DSA
+was expected and intended to be paired with GAKed Capstone
+key-management. And the simple goal of that strategy -- phrased
+somewhat differently by its advocates, of course;-) -- was to leave
+every confidential digital communication stained with the possibility
+that LEAs or "national security" agencies might be eavesdropping.  
+
+        In telephonic society, most citizens here and abroad live with
+something close to that, I admit -- but to extend it into the digital
+culture would break down many of the enclaves that today exist for
+both personal and commercial confidentiality.
+
+        I've always thought you had to rate a limousine inside the
+Beltway to believe that high finance and commercial trade  -- the
+e-commerce we count on for 21st Century prosperity -- could flourish
+under those conditions.  The necessity of personal privacy is more
+debatable, but thankfully (by my lights), one is unlikely without the
+other.
+        
+>* We may soon find out whether historians will find that patents
+>contributed to the spread of strong crypto. The MIT/RSA patent
+>runs out in Sept. 2000. My guess is that use of strong crypto will
+>go up at that time, not down.
+
+        The context of this discussion is different.  The issue is not
+whether patents contributed to the spread of strong crypto -- although
+I think a good case can be made for that in the US -- but rather
+whether the existance of defensible patents on PKC staved off the US 
+government's systemic assault on crypto-enabled confidentiality when
+the issue was still in doubt. 
+
+	Cryptography has never been allowed to be wholly, or even largely, a
+creature of the market. The political strictures upon its use, rather
+than the market's appetite for its functionality, was always the
+defining factor. The Schnorr patents, with the threat they posed to
+the DSA, played a timely and important role in balking the NSA's
+campaign for government access to keys.
+
+	(I beg the readers pardon for my apparent pretentiousness. Crypto
+politics is a big topic which requires glib reference to big ideas and
+complex history. I don't think young people or newbies are well served
+if we deny or forget our own experience, however, which is why I
+entertain you with these recollections.)
+
+        Surete,
+                _Vin
+
+--------
+  "Cryptography is like literacy in the Dark Ages. Infinitely potent,
+for good and ill... yet basically an intellectual construct, an idea,
+which by its nature will resist efforts to restrict it to bureaucrats
+and others who deem only themselves worthy of such Privilege."
+  _A Thinking Man's Creed for Crypto  _vbm
+
+ *     Vin McLellan + The Privacy Guild + <vin@shore.net>    *
+      53 Nichols St., Chelsea, MA 02150 USA <617> 884-5548

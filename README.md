@@ -1,1 +1,1 @@
-# Deterministic-DSA-ECDSA ( 描金 )
+# Deterministic-DSA-ECDSA ()

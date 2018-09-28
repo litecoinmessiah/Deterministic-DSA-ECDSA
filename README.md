@@ -1,4 +1,4 @@
-# 
+# Где моя память?
 
 ![](https://github.com/ymmah/Deterministic-DSA-ECDSA/blob/master/merged%20mining/AI/ArtBoard%20Image%20(494).jpg)
 
